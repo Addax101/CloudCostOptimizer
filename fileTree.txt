@@ -1,0 +1,32 @@
+CloudCostOptimizer/
+├── README.md
+├── LICENSE.md
+├── CONTRIBUTING.md
+├── package.json
+├── package-lock.json
+├── node_modules/
+├── src/
+│   ├── main.js
+│   ├── costExplorer.js
+│   ├── costManagement.js
+│   ├── cloudBilling.js
+│   ├── trustedAdvisor.js
+│   ├── advisor.js
+│   └── optimizer.js
+└── test/
+    ├── test.js
+    ├── costExplorer.test.js
+    ├── costManagement.test.js
+    ├── cloudBilling.test.js
+    ├── trustedAdvisor.test.js
+    ├── advisor.test.js
+    └── optimizer.test.js
+
+
+costExplorer.js, costManagement.js, cloudBilling.js, trustedAdvisor.js, advisor.js, optimizer.js: These files are the implementation of the features of the project, like using AWS Cost Explorer, Azure Cost Management, Google Cloud Billing, AWS Trusted Advisor, Azure Advisor, Google Cloud Optimizer respectively.
+
+test/ : This directory contains the test cases for the project. It includes test files for each functionality of the project.
+
+test.js: This file is the entry point for running the test cases. It includes all the necessary code to run the tests.
+
+costExplorer.test.js, costManagement.test.js, cloudBilling.test.js, trustedAdvisor.test.js, advisor.test.js, optimizer.test.js : These files contains the test cases for each functionality of the project, like using AWS Cost Explorer, Azure Cost Management, Google Cloud Billing, AWS Trusted Advisor, Azure Advisor, Google Cloud Optimizer respectively.
